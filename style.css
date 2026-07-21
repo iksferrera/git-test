@@ -1,0 +1,32 @@
+h1 {
+    
+    font-style: italic;
+    height: 100%;
+}
+
+
+#header-flex-container {
+    display: flex;
+    flex-direction: row;
+    border: solid 2px #457081;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+    background-color: yellow;
+
+}
+
+
+#header-icon {
+    border: solid 2px #494949;
+    display: flex;
+    background-color: #FFC86E;
+}
+
+#header-text {
+    border: solid 2px #303030;
+    color: red;
+    background-color: #D37947;
+    flex-basis: 100%;
+}
